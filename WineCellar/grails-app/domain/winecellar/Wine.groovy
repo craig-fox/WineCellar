@@ -10,4 +10,8 @@ class Wine {
 	Varietal varietal
 	String style
 	Winery winery
+	
+	String toString(){
+		name
+	}
 }

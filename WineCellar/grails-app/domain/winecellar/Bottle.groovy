@@ -7,4 +7,6 @@ class Bottle {
 	
 	Wine wine
 	int year
+	
+	
 }

@@ -30,6 +30,8 @@
 					
 						<th><g:message code="wine.varietal.label" default="Varietal" /></th>
 					
+						<th><g:message code="wine.winery.label" default="Winery" /></th>
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -41,6 +43,8 @@
 						<td>${fieldValue(bean: wineInstance, field: "name")}</td>
 					
 						<td>${fieldValue(bean: wineInstance, field: "varietal")}</td>
+					
+						<td>${fieldValue(bean: wineInstance, field: "winery")}</td>
 					
 					</tr>
 				</g:each>

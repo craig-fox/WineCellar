@@ -50,6 +50,15 @@
 				</li>
 				</g:if>
 			
+				<g:if test="${wineInstance?.winery}">
+				<li class="fieldcontain">
+					<span id="winery-label" class="property-label"><g:message code="wine.winery.label" default="Winery" /></span>
+					
+						<span class="property-value" aria-labelledby="winery-label"><g:link controller="winery" action="show" id="${wineInstance?.winery?.id}">${wineInstance?.winery?.encodeAsHTML()}</g:link></span>
+					
+				</li>
+				</g:if>
+			
 			</ol>
 			<g:form>
 				<fieldset class="buttons">

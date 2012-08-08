@@ -10,4 +10,7 @@ class Winery {
 	String name
 	String location
 	
+	String toString(){
+		name
+	}
 }

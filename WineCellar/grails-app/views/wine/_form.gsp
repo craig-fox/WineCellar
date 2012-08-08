@@ -26,3 +26,11 @@
 	<g:select id="varietal" name="varietal.id" from="${winecellar.Varietal.list()}" optionKey="id" required="" value="${wineInstance?.varietal?.id}" class="many-to-one"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: wineInstance, field: 'winery', 'error')} required">
+	<label for="winery">
+		<g:message code="wine.winery.label" default="Winery" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="winery" name="winery.id" from="${winecellar.Winery.list()}" optionKey="id" required="" value="${wineInstance?.winery?.id}" class="many-to-one"/>
+</div>
+
