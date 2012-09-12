@@ -74,9 +74,15 @@ a:hover, a:active {
 
 h1 {
 	color: #48802c;
-	font-weight: normal;
-	font-size: 1.25em;
+	font-weight: bold;
+	font-size: 3em;
 	margin: 0.8em 0 0.3em 0;
+}
+
+.title hl {
+	font-family: fantasy;
+	font-size: 3em;
+	font-weight: bold;
 }
 
 ul {
@@ -135,12 +141,12 @@ img {
 /* NAVIGATION MENU */
 
 .nav {
-	background-color: #efefef;
+	/*background-color: #efefef;
 	padding: 0.5em 0.75em;
 	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
 	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
 	        box-shadow: 0 0 3px 1px #aaaaaa;
-	zoom: 1;
+	zoom: 1; */
 }
 
 .nav ul {
